@@ -156,6 +156,7 @@ button {
     align-items: flex-start;
     padding: 50px 100px;
     gap: 50px;
+    max-width: 600px;
 }
 
 .bottom-container .call-to-action h3
@@ -164,7 +165,7 @@ button {
     padding: 0;
     color: #E5E7EB;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .bottom-container .call-to-action p {
