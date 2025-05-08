@@ -15,7 +15,7 @@ body {
     background-color: #1F2937;
     display: flex;    
     align-items: center;
-    padding: 1em 5em;
+    padding: 24px 80px 80px;
 }
 
 .header h1 {
@@ -26,6 +26,8 @@ body {
 
 .header {
     justify-content: space-between;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
@@ -41,7 +43,39 @@ a {
     color: #f9faf8;
 }
 
-.header {
-    font-size: 24px;
+.top-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    gap: 100px;
+}
+
+.top-container h1 {
+    font-size: 48px;
     color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.top-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: .5em 1em;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.top-container-left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
